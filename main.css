@@ -1,3 +1,49 @@
-h1{
-	color: blue;
-}
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("https://cdn.myanimelist.net/s/common/uploaded_files/1441353091-d1af7dce4752857d7c6054e0400bb1bd.png");
+    /* 預設會 repeat 至填滿 */
+    /* 也可以設定縱向、橫向 repeat 即可 (repeat-y, repeat-x) */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* scroll or fixed */
+    background-size: cover;
+  }
+  #michael{
+      display: block;
+      margin-left: 0;
+      margin-right: auto;
+      border-radius: 100px;
+  }
+  p{
+    background-color:rgba(255,255,255,0.5);
+    color:rgb(66, 65, 65);
+    border-style: dotted;
+    border-width: 10px;
+    border-color: blue;
+    padding: 30px;
+    font-size: 30px;
+  }
+  #aincrad{
+    z-index: +1;
+    position:sticky;
+    left:1500px;
+    top:50px;
+  }
+  .box{
+
+      margin:0px;
+      padding:30px;
+      height:0%;
+
+      position:sticky;
+      left:0;
+      right:0;
+      bottom:0;
+    
+      background-color: rgba(0,0,0,0.7);
+  }
+  #instagram{
+    margin-left:1300px;
+  }
+  #facebook{
+    margin-left:10px;
